@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - this is the main function
- * Return always zero
+ * Return: number generated
  */
 /* more headers goes there */
 
