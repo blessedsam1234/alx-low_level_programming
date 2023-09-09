@@ -1,7 +1,7 @@
 #include <stdio.h>
-
-/** main - print all possible different combinations.
- * Return: Always 0.
+/**
+ * main - this is the function.
+ * Return: Always 0
  */
 
 int main(void)
