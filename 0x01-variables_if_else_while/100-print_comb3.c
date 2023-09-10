@@ -5,19 +5,16 @@
  */
 int main(void)
 {
-int n, m, l;
-for (n = 48; n < 58; n++)
+int i, a;
+for (i = 48; i <= 56; i++)
 {
-for (m = 49; m < 58; m++)
+for (a = 49; a <= 57; a++)
 {
-for (l = 50; l < 58; l++)
+if (a > i)
 {
-if (l > m && m > n)
-{
-putchar(n);
-putchar(m);
-putchar(l);
-if (n != 55 || m != 56)
+putchar(i);
+putchar(a);
+if (i != 56 || a != 57)
 {
 putchar(',');
 putchar(' ');
@@ -25,6 +22,6 @@ putchar(' ');
 }
 }
 }
-}
+putchar('\n');
 return (0);
 }
