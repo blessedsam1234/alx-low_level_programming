@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main function which prints the size of computer
+ * main - Entry point
  * Return: Always 0
  */
 int main(void)
