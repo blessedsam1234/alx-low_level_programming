@@ -3,7 +3,7 @@
  * puts2 -  prints only one charater out of two
  * starting with the firt one
  * @str: input
- * return: prints
+ * Return: print
  */
 void puts2(char *str)
 {
@@ -24,5 +24,5 @@ if (o % 2 == 0)
 _putchar(str[o]);
 }
 }
-_putchar('\0');
+_putchar('\n');
 }
