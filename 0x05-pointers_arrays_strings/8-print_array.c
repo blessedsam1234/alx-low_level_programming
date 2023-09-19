@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * print_array - a function that prints n elements of an array.
@@ -8,14 +7,14 @@
  */
 void print_array(int *a, int n)
 {
-int i;
-for (i = 0; i < (n - 1); i++)
+int index_of_array;
+for (index_of_array = 0; index_of_array < n; index_of_array++)
 {
-printf("%d", a[i]);
-}
-if (i == (n - 1))
+printf("%d", a[index_of_array]);
+if (index_of_array != (n - 1))
 {
-printf("%d", a[n - 1]);
+printf(", ");
 }
-printf("\n");
+}
+putchar('\n');
 }
