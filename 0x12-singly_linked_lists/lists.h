@@ -2,7 +2,13 @@
 #define LISTS_H
 #include <stdio.h>
 
-
+/**
+ * struct list_s - singly linked list
+ * @str: malloc stringed
+ * @len: length of the string
+ * @next: points to the next mode
+ * Description: linked list
+ */
 typedef struct list_s
 {
 	char *str;
